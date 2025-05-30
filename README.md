@@ -1,7 +1,6 @@
 # DeepSeek Reimplementation with MoE & LoRA Fine-Tuning
-![](./deep.jpg)
-### 💡 Why This Reimplementation?
 
+### 💡 Why This Reimplementation?
 ***While DeepSeek is an impressive model, reproducing its architecture from scratch is far from easy. The official paper is dense and assumes familiarity with advanced system-level optimizations. Worse yet, the official codebase though functional is highly monolithic, poorly documented, and difficult to navigate.***
 
 ***Even understanding just one component, like the Mixture-of-Experts routing or attention logic, requires reverse-engineering deeply nested, cryptic code structures.***
