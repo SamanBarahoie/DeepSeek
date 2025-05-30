@@ -96,7 +96,7 @@ python ./deepseek/main.py --mode generate --model_path best_model_epoch2.pth --t
 
 ## 📚 Text Example
 
-```python
+
 She was learning to be extra careful, taking walks back to the ground all alone. 
 
 One day when everyone was out playing, the daughter noticed a large and green field. They thought it was very pretty and wanted to play. As they played, they noticed something. It was a black butterfly. Some of the flower looked like it was like it was flying in the sky like a sunflower.
@@ -104,10 +104,6 @@ One day when everyone was out playing, the daughter noticed a large and green fi
 "Wow, this is fun," one fairy said. "I like it a flower. Do you have it?"
 
 The fairy smiled and started to observe the butterfly too. He loved the pretty colors so much as he hopped
-
-
-
-```
 
 ---
 
