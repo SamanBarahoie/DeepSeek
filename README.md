@@ -66,7 +66,14 @@ python ./deepseek/main.py --mode train
 ## 🪄 Fine-Tuning with LoRA
 
 ```bash
-python ./deepseek/main.py --mode finetuner --model_path checkpoints/best_model_epoch2.pth --finetune_train_path train_tokenized.pt --finetune_eval_path eval_tokenized.pt --log_file finetune.log --log_level INFO
+python deepseek/main.py \
+  --mode finetuner \
+  --model_path checkpoints/best_model_epoch2.pth \
+  --finetune_train_path train_tokenized.pt \
+  --finetune_eval_path eval_tokenized.pt \
+  --log_file finetune.log \
+  --log_level INFO
+
 ```
 
 * Instruction tuning (Alpaca-style)
@@ -75,10 +82,18 @@ python ./deepseek/main.py --mode finetuner --model_path checkpoints/best_model_e
 
 ---
 
-## 🔍 Inference
+## 🔍 Inference mode
 
 ```bash
-python ./deepseek/main.py --mode generate --model_path best_model_epoch2.pth --train_token_file tokenized-train-samples_vocab-10k.pt --valid_token_file tokenized-valid-samples_vocab-10k.pt --tokenizer_file bpe_tokenizer_fixed --log_file generate.log --log_level INFO
+python deepseek/main.py \
+  --mode generate \
+  --model_path best_model_epoch2.pth \
+  --train_token_file tokenized-train-samples_vocab-10k.pt \
+  --valid_token_file tokenized-valid-samples_vocab-10k.pt \
+  --tokenizer_file bpe_tokenizer_fixed \
+  --log_file generate.log \
+  --log_level INFO
+
 ```
 
 ---
